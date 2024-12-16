@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0" />
+    <title>HTML Recap - find and fix the errors in the HTML file</title> <!-- Added a missing title element -->
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+      <div>
+          <div><a href="#home">Home</a></div>
+          <div><a href="#About">About</a></div> <!-- Wrapped "About" in an <a> tag for consistency -->
+          <div><a href="#services">Services</a></div>
+          <div><a href="#contact">Contact</a></div> <!-- Wrapped in a <div> for consistency -->
+          </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h1>Introduction</h1>
+        <p>This is the introduction section of the website.</p>
+      </section>
+
+      <section class="home">
+        <h2>Home</h2>
+        <p>This is the home section of the website.</p>
+      </section> 
+
+      <section class="about">
+        <h2>About</h2>
+        <p>This section contains information about us.</p>
+      </section> <!-- Corrected missing closing tag --> <!-- Changed <div> to <section> for better semantic structure -->
+
+      <section class="services">
+        <h2>Services</h2>
+        <article>
+          <h3>Service 1</h3>
+          <p>Details about service 1.</p>
+        </article>
+        <article>
+          <h3>Service 2</h3>
+          <p>Details about service 2.</p>
+        </article> <!-- Corrected missing closing tag.--> <!-- Changed <div> to <article> for better semantic structure -->
+      </section> 
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <address>
+          <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+          <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+        </address>
+      </section>
+    </main>
+
+    <footer> <!-- Changed <div> to <footer> for better semantic structure -->     
+      <p>&copy; 2023 My Website</p>
+    </footer>
+  </body>
+</html>
