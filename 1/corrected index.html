@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Recap - find and fix the errors in the HTML file</title> <!-- Added a missing title element -->
   </head>
   <body>
@@ -10,7 +10,7 @@
       <h1>Welcome to My Website</h1>
       <div>
           <div><a href="#home">Home</a></div>
-          <div><a href="#About">About</a></div> <!-- Wrapped "About" in an <a> tag for consistency -->
+          <div><a href="#about">About</a></div> <!-- Wrapped "About" in an <a> tag for consistency -->
           <div><a href="#services">Services</a></div>
           <div><a href="#contact">Contact</a></div> <!-- Wrapped in a <div> for consistency -->
           </div>
@@ -23,17 +23,17 @@
         <p>This is the introduction section of the website.</p>
       </section>
 
-      <section class="home">
+      <section id="home">
         <h2>Home</h2>
         <p>This is the home section of the website.</p>
       </section> 
 
-      <section class="about">
+      <section id="about">
         <h2>About</h2>
         <p>This section contains information about us.</p>
       </section> <!-- Corrected missing closing tag --> <!-- Changed <div> to <section> for better semantic structure -->
 
-      <section class="services">
+      <section id="services">
         <h2>Services</h2>
         <article>
           <h3>Service 1</h3>
@@ -45,7 +45,7 @@
         </article> <!-- Corrected missing closing tag.--> <!-- Changed <div> to <article> for better semantic structure -->
       </section> 
 
-      <section class="contact">
+      <section id="contact">
         <h2>Contact</h2>
         <address>
           <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
